@@ -4,14 +4,15 @@ import '../styles/auth.scss'
 import { Button } from '../components/Button'
 
 import { Link } from 'react-router-dom'
-// import { useAuth } from '../hooks/useAuth'
+import { useAuth } from '../hooks/useAuth'
 
 export function NewRoom() {
-	// const { user } = useAuth()
+	const { user } = useAuth()
 
 	return (
 		<div id="page-auth">
 			<aside>
+				<h1>{user?.name}</h1>
 				<img
 					src={illustrationImg}
 					alt="Ilustração simbolizando perguntas e respostas"
