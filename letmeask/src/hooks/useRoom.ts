@@ -57,7 +57,7 @@ export function useRoom(roomId: string) {
       setQuestions(parsedQuestions);
     })
 
-    return () => {//unsubscription- remove listener
+    return () => {
       roomRef.off('value');
     }
   }, [roomId, user?.id]);
