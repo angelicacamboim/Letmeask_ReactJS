@@ -29,17 +29,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/rocketseat-education/nlw-06-reactjs
-$ cd nlw-06-reactjs
+$ git clone https:/https://github.com/angelicacamboim/Letmeask_ReactJS/
+$ cd Letmeask_ReactJS
 ```
 
 Para iniciá-lo, siga os passos abaixo:
 ```bash
-# Instalar as dependências
-$ yarn
 
 # Iniciar o projeto
-$ yarn start
+$ npm start
 ```
 O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
@@ -63,7 +61,3 @@ Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
 ## 📝 License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
----
-
-Feito com 💜 by Rocketseat 👋🏻 [Participe da nossa comunidade](https://discord.gg/gKUVrzrPrU)
