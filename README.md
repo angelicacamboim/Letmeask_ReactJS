@@ -24,8 +24,9 @@ $ cd letmeask
 Para iniciá-lo, siga os passos abaixo:
 
 # Iniciar o projeto
-$ npm install e
-$ npm start
+npm install 
+
+npm start
 
 O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
